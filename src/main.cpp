@@ -8,6 +8,7 @@
 
 
 int main() {
+    //check-1
     hittable_list world;
 
     world.add(make_shared<sphere>(point3(0,0,-1), 0.5));
